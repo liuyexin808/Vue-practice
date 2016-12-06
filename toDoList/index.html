@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+
+<div class="todoapp">
+	<header class="header">
+	<h2>To Do List </h2>
+	<input type="text" class="newtask" v-model="newTask" @keyup.enter="addTask" autofocus placeholder="请输入需要完成的任务">
+	</header>
+	
+	<section class="main">
+		<ul class="list">
+			<li  class="task" v-for="(task,index) in filterList">
+				<input type="checkbox" v-model="task.isCompleted" >
+				<span :class='{complete:task.isCompleted}'>{{task.content}}</span>
+				<button class="delete" @click="removeTask(index)">X</button>
+			</li>
+
+		<ul>
+	</section>
+
+	<footer class="footer" v-show="taskList.length">
+		<strong class="info">{{remainActive | complete}}</strong>
+		<div class="selectlist">
+		<span :class={selected:location==="all"} @click="changeLocation('all')">全部列表</span>
+		<span :class={selected:location==="active"} @click="changeLocation('active')">代办列表</span>
+		<span :class={selected:location==="completed"} @click="changeLocation('completed')">完成列表</span>
+		</div>
+		<div class="btn">
+		<button @click="selectAll" :class="{active:!remainActive}">全选</button>
+		<button @click="deleteComplete" v-show="remainCompleted">清除</button>
+		</div>
+	</footer>
+
+</div>
+
+<script type="text/javascript" src="./vue.js"></script>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+	background: #F5F5F5;	
+}
+.todoapp{
+	width: 450px;
+	margin: 0 auto;
+}
+.header .newtask{
+	width: 450px;
+	height: 50px;
+	font: 20px/40px "微软雅黑";
+	border: 0;
+ 	box-shadow: 2px 3px 2px 2px #000; 
+	margin-bottom: 4px;
+}
+.main .list {
+	padding: 0;
+	margin: 0;
+}
+.main .task {
+	width: 450px;
+	height: 40px;
+	font: 20px/40px "微软雅黑";
+	list-style-type:none;
+	background: #fff;
+	box-shadow: 2px 2px 2px 2px #000;
+	margin-top:8px;
+}
+
+.main .task input {
+	width: 20px;
+	height: 20px;
+	background-color: red;
+}
+.main .task .delete{
+	margin-top: 5px;
+	float: right;
+	font:20px Times;
+	background: #fff;
+	border: 0;
+	outline:none;
+	cursor: pointer;
+}
+.main .task .delete:hover{
+	color: #EB3F2F;
+}
+.main .complete {
+	text-decoration: line-through;
+	color: grey;
+}
+.footer {
+	width: 450px;
+	height: 50px;
+	font:16px/50px "微软雅黑";
+	box-shadow: 2px 2px 2px 2px #000 ;
+	background: #fff;
+	margin-top:10px;
+}
+.footer .btn{
+	float: right;
+}
+.footer .btn button {
+	background-color: #F5F5F5;
+	opacity: 0.5;
+	border-radius: 10px;
+	outline: none;
+	transition: 1s;
+}
+.footer .btn button:hover{
+	background-color:#ede8e8;
+	opacity: 1;
+	color:#000;
+
+}
+.footer .btn .active {
+	color:white;
+	background-color: #000;
+	opacity: 1;
+}
+.footer .selectlist {
+	display: inline-block;
+	margin-left: 35px;
+}
+.footer .selectlist span {
+	cursor: pointer;
+} 
+.footer .selectlist span:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+.footer .selectlist  .selected{
+	text-decoration: underline;
+	font-weight: bold;
+}
