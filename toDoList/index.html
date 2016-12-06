@@ -7,13 +7,13 @@
 </head>
 <body>
 
-<div class="todoapp">
-	<header class="header">
+<div class="todoapp" >
+	<header class="header" v-cloak>
 	<h2>To Do List </h2>
 	<input type="text" class="newtask" v-model="newTask" @keyup.enter="addTask" autofocus placeholder="请输入需要完成的任务">
 	</header>
 	
-	<section class="main">
+	<section class="main" v-cloak>
 		<ul class="list">
 			<li  class="task" v-for="(task,index) in filterList">
 				<input type="checkbox" v-model="task.isCompleted" >
@@ -24,7 +24,7 @@
 		<ul>
 	</section>
 
-	<footer class="footer" v-show="taskList.length">
+	<footer class="footer" v-show="taskList.length" v-cloak>
 		<strong class="info">{{remainActive | complete}}</strong>
 		<div class="selectlist">
 		<span :class={selected:location==="all"} @click="changeLocation('all')">全部列表</span>
