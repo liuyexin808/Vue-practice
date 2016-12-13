@@ -15,15 +15,15 @@ export default {
 </script>
 
 <style>
+
 body {
   height: 100vh;
-  background: url("assets/background.png") no-repeat;
+  background: url("./assets/background.png") no-repeat;
   background-size: cover;
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
-
 [v-cloak] {
   display: none;
 }

@@ -139,7 +139,7 @@ export default{
   height: 40px;
 }
 .search-input input{
-  font:20px/40px "微软雅黑";
+  font:20px/40px "Microsoft YaHei";
   box-sizing: border-box;
   border:0.5px solid #c4c4c4;
   width: 500px;
@@ -148,14 +148,14 @@ export default{
 }
 .search-reset{
   position: absolute;
-  font:bold 22px "微软雅黑";
+  font:bold 22px "Microsoft YaHei";
   top:5px;
   left:480px;
   cursor:pointer;
 }
 .search-start {
   float: right;
-  font:18px/40px "微软雅黑";
+  font:18px/40px "Microsoft YaHei";
   width:100px;
   height: 40px;
   background-color:#726dd1;
@@ -178,7 +178,7 @@ export default{
 }
 .search-tip li{
   list-style: none;
-  font:18px/30px "微软雅黑";
+  font:18px/30px "Microsoft YaHei";
   width: 499.5px;
   height:30px;
   padding-bottom: 5px;
@@ -195,4 +195,5 @@ export default{
 .list-leave-active {
   position: absolute;
 }
+
 </style>
