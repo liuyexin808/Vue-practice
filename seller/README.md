@@ -1,10 +1,11 @@
 # seller
-
 移动外卖app
 Vue2.0 + Vue-Router + Vue-Resource + Better-Scroll(基于iScroll) + Stylus
 
-## Build Setup
 
+![](http://oigx4lov6.bkt.clouddn.com/goods.png)  ![](http://oigx4lov6.bkt.clouddn.com/ratings.png)
+
+## Build Setup
 ``` bash
 # install dependencies
 npm install

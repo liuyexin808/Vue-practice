@@ -1,4 +1,6 @@
-# search-demo
+# search
+
+[Demo](http://htmlpreview.github.io/?https://github.com/liuyexin808/Vue-practice/blob/gh-pages/search-demo/index.html) <br>
 
 ## Build Setup
 
