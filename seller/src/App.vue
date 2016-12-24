@@ -69,5 +69,4 @@ export default {
         & .active
           color rgb(240, 20, 20)
 
-
 </style>

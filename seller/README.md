@@ -1,6 +1,7 @@
 # seller
 
-> A Vue.js project
+移动外卖app
+Vue2.0 + Vue-Router + Vue-Resource + Better-Scroll(基于iScroll) + Stylus
 
 ## Build Setup
 
@@ -15,4 +16,3 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

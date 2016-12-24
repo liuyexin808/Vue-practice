@@ -1,3 +1,4 @@
+// 1px边框
 border-1px($color)
   position relative
   &::after
@@ -9,6 +10,7 @@ border-1px($color)
     width 100%
     content ''
 
+// 适应移动端的像素比
 bg-image($url,$width,$height)
   background url($url + '@2x.png')  no-repeat
   background-size $width $height
