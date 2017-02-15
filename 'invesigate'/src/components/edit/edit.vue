@@ -70,6 +70,11 @@ import {deepCopy} from 'common/js/util'
 export default {
   data() {
     return {
+      // 问卷数据模块
+      question: null,
+      // 查询参数
+      query: null,
+      // 控制添加题目选项
       fold: true,
       showCancel: false,
       text: ''

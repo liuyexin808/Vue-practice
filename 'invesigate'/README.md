@@ -1,6 +1,7 @@
 # 'invesigate'
 
-> A Vue.js project
+问卷调查平台(兼容移动端) Vue2.0 + Vue-Router + e-charts + scss
+[Demo](http://htmlpreview.github.io/?https://github.com/liuyexin808/Vue-practice/blob/gh-pages/'invesigate'/index.html) <br>
 
 ## Build Setup
 
@@ -15,4 +16,3 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
