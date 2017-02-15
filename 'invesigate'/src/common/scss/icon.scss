@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'icon';
+  src:  url('../fonts/icon.eot?p89n2j');
+  src:  url('../fonts/icon.eot?p89n2j#iefix') format('embedded-opentype'),
+    url('../fonts/icon.ttf?p89n2j') format('truetype'),
+    url('../fonts/icon.woff?p89n2j') format('woff'),
+    url('../fonts/icon.svg?p89n2j#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-radio:before {
+  content: "\e72f";
+}
+.icon-radio_fill:before {
+  content: "\e71e";
+}
+.icon-checkbox:before {
+  content: "\e720";
+}
+.icon-checkbox_fill:before {
+  content: "\e721";
+}
+.icon-text:before {
+  content: "\e606";
+}
+
